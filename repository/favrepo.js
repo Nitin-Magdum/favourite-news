@@ -1,4 +1,4 @@
-const FavModel =require('../Model/FavModel')
+const FavModel =require('../model/favmodel')
 const { v4: uuidv4 } = require('uuid');
 function GetFavs(e) {
     return new Promise((resolve, reject) => {
