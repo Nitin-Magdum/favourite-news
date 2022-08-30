@@ -4,7 +4,6 @@ function GetFavs(req, res) {
         res.status(200).send(data);
     });
 }
-
 function AddFav(req, res) {
     repo.AddFav(req.body).then(data => {
         res.status(201).send("Fav added successfully");

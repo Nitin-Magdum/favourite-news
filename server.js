@@ -24,3 +24,4 @@ let port = process.env.PORT || 2000
 app.listen(2000, () => {
     console.log(`Server is running on port ${port}`);
 });
+module.exports = app;

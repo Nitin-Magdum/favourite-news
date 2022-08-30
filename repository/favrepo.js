@@ -12,7 +12,6 @@ function GetFavs(e) {
     });
 }
 
-
 function AddFav(fav) {
     return new Promise((resolve, reject) => {
         let Fav = new FavModel({
@@ -50,5 +49,5 @@ function DeleteFav(email,id){
     });
 }
 
-module.exports = { GetFavs,  AddFav,  DeleteFav };
+module.exports = { GetFavs,  AddFav,  DeleteFav};
 
